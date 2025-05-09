@@ -1,19 +1,19 @@
 {
     "context": {
-      "domain": "deg:retail",
+      "domain": "retail",
       "action": "on_search",
       "version": "1.1.0",
       "bpp_id": "bpp-ps-network-strapi2-dev.becknprotocol.io",
       "bpp_uri": "http://bpp-ps-network-strapi2-dev.becknprotocol.io",
       "location": {
         "country": { "code": "USA" },
-        "city": { "code": "628" }
+        "city": { "area code": "628" }
       },
       "bap_id": "bap-ps-network-dev.becknprotocol.io",
       "bap_uri": "https://bap-ps-network-dev.becknprotocol.io",
       "transaction_id": "4ff62a86-2241-41cc-9527-f0c00ecaba76",
       "message_id": "db0708ee-a2ae-4b13-aee2-150ce3738b40",
-      "ttl": "PT10M",
+      "ttl": "PT20S",
       "timestamp": "2025-04-15T14:59:57.691Z"
     },
     "message": {
