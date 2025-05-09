@@ -1,0 +1,55 @@
+{
+    "context": {
+      "domain": "energy",
+      "action": "status",
+      "version": "1.1.0",
+      "bap_id": "p2pTrading-bap.com",
+      "bap_uri": "https://api.p2pTrading-bap.com/pilot/bap/energy/v1",
+      "bpp_id": "p2pTrading-bpp.com",
+      "bpp_uri": "https://api.p2pTrading-bpp.com/pilot/bpp/",
+      "transaction_id": "energy-txn-1001",
+      "message_id": "energy-msg-0005",
+      "timestamp": "2023-07-16T04:44:00Z",
+      "location": {
+        "country": { "code": "USA" },
+        "city": { "code": "628" }
+      }
+    },
+    "message": {
+      "order_id": "order-energy-001",
+      "status": "In Transit",
+      "fulfillment": {
+        "id": "1",
+        "type": "Delivery",
+        "stops": [
+          {
+            "type": "start",
+            "location": {
+              "address": "der://pge.meter/100200300"
+            },
+            "time": {
+              "range": {
+                "start": "2024-10-04T10:00:00",
+                "end": "2024-10-04T18:00:00"
+              }
+            },
+            "status": "Completed"
+          },
+          {
+            "type": "end",
+            "location": {
+              "address": "der://consumer.meter/200300400"
+            },
+            "time": {
+              "range": {
+                "start": "2024-10-04T10:00:00",
+                "end": "2024-10-04T18:00:00"
+              }
+            },
+            "status": "In Progress"
+          }
+        ]
+      }
+    }
+  }
+  

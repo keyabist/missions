@@ -1,0 +1,45 @@
+{
+    "context": {
+      "domain": "energy",
+      "action": "rating",
+      "version": "1.1.0",
+      "bap_id": "p2pTrading-bap.com",
+      "bap_uri": "https://api.p2pTrading-bap.com/pilot/bap/energy/v1",
+      "bpp_id": "p2pTrading-bpp.com",
+      "bpp_uri": "https://api.p2pTrading-bpp.com/pilot/bpp/",
+      "transaction_id": "energy-txn-1001",
+      "message_id": "energy-msg-0008",
+      "timestamp": "2023-07-16T04:47:00Z",
+      "location": {
+        "country": { "code": "USA" },
+        "city": { "code": "628" }
+      }
+    },
+    "message": {
+      "rating": {
+        "id": "rating-energy-001",
+        "value": 4.5,
+        "rating_category": "Energy Quality",
+        "rating_subcategory": "Voltage Stability",
+        "feedback_form": [
+          {
+            "id": "feedback-energy-001",
+            "descriptor": {
+              "code": "energy_quality",
+              "name": "Energy Quality"
+            },
+            "value": "Good"
+          },
+          {
+            "id": "feedback-energy-002",
+            "descriptor": {
+              "code": "delivery_time",
+              "name": "Delivery Time"
+            },
+            "value": "Excellent"
+          }
+        ]
+      }
+    }
+  }
+  
