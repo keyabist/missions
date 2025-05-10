@@ -1,6 +1,6 @@
 {
     "context": {
-      "domain": "deg:flexibility",
+      "domain": "flexibility",
       "action": "cancel",
       "location": {
         "country": { "code": "USA" },

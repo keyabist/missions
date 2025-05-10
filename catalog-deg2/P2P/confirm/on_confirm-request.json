@@ -1,0 +1,29 @@
+{
+  "context": {
+    "domain": "energy",
+    "action": "on_confirm",
+    "version": "1.1.0",
+    "bap_id": "p2pTrading-bap.com",
+    "bap_uri": "https://api.p2pTrading-bap.com/pilot/bap/energy/v1",
+    "bpp_id": "p2pTrading-bpp.com",
+    "bpp_uri": "https://api.p2pTrading-bpp.com/pilot/bpp/",
+    "transaction_id": "energy-txn-1001",
+    "message_id": "energy-msg-0004",
+    "timestamp": "2023-07-16T04:43:01Z"
+  },
+  "message": {
+    "order": {
+      "id": "order-energy-001",
+      "state": "CONFIRMED",
+      "provider": { "id": "p1072" },
+      "items": [
+        {
+          "id": "uid_xyz",
+          "quantity": {
+            "measure": { "value": "30", "unit": "kWH" }
+          }
+        }
+      ]
+    }
+  }
+}

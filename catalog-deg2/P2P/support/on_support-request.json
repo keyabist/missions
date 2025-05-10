@@ -1,0 +1,32 @@
+{
+    "context": {
+      "domain": "energy",
+      "action": "on_support",
+      "version": "1.1.0",
+      "bap_id": "p2pTrading-bap.com",
+      "bap_uri": "https://api.p2pTrading-bap.com/pilot/bap/energy/v1",
+      "bpp_id": "p2pTrading-bpp.com",
+      "bpp_uri": "https://api.p2pTrading-bpp.com/pilot/bpp/",
+      "transaction_id": "energy-txn-1001",
+      "message_id": "energy-msg-0008",
+      "timestamp": "2023-07-16T04:47:00Z",
+      "location": {
+        "country": { "code": "USA" },
+        "city": { "code": "628" }
+      }
+    },
+    "message": {
+      "ref_id": "order-energy-001",
+      "support": {
+        "ref_id": "support-energy-001",
+        "type": "Complaint",
+        "category": "Energy Quality",
+        "sub_category": "Voltage Fluctuation",
+        "description": "Experiencing voltage fluctuations during energy transfer",
+        "contact": {
+          "phone": "+14155550123",
+          "email": "support@energy-trading.com"
+        }
+      }
+    }
+} 

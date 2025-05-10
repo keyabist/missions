@@ -1,0 +1,17 @@
+{
+  "context": {
+    "domain": "energy",
+    "action": "on_rating",
+    "version": "1.1.0",
+    "bap_id": "p2pTrading-bap.com",
+    "bap_uri": "https://api.p2pTrading-bap.com/pilot/bap/energy/v1",
+    "bpp_id": "p2pTrading-bpp.com",
+    "bpp_uri": "https://api.p2pTrading-bpp.com/pilot/bpp/",
+    "transaction_id": "energy-txn-1001",
+    "message_id": "energy-msg-0009",
+    "timestamp": "2023-07-16T04:48:01Z"
+  },
+  "message": {
+    "ack": { "status": "ACK" }
+  }
+}
